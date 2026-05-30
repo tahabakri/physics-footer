@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taha Bakri — Physics Footer</title>
+  <meta name="description" content="An interactive physics-footer portfolio landing — grab, fling, and pile up skill tags. Built with Matter.js." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <section class="hero">
+    <p class="kicker">Taha Bakri · Creative Developer</p>
+    <h1>I build interfaces that <em>feel alive.</em></h1>
+    <div class="scroll-cue"><span>scroll to the footer ↓</span></div>
+  </section>
+
+  <section class="footer" id="footer">
+    <div class="footer-content">
+      <h2>Let's make<br />something <em>move.</em></h2>
+      <p class="sub">grab a tag · fling it · or add your own ↓</p>
+    </div>
+
+    <div class="object-container" id="object-container"></div>
+
+    <div class="controls">
+      <input id="tag-input" type="text" maxlength="24" placeholder="add a tag…" autocomplete="off" />
+      <button class="drop" id="drop-btn">drop</button>
+      <button class="reset" id="reset-btn">reset</button>
+    </div>
+    <p class="credit">Built with Matter.js</p>
+    <div class="grain"></div>
+  </section>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "physics-footer",
+  "version": "1.0.0",
+  "description": "An interactive physics-footer portfolio landing — grab, fling, and pile up skill tags with Matter.js.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "matter-js",
+    "physics",
+    "creative-coding",
+    "portfolio",
+    "vite",
+    "javascript",
+    "interactive"
+  ],
+  "author": "Taha Bakri",
+  "license": "MIT",
+  "dependencies": {
+    "matter-js": "^0.20.0"
+  },
+  "devDependencies": {
+    "vite": "^8.0.14"
+  }
+}

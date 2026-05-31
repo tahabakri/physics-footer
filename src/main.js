@@ -17,13 +17,13 @@ const config = {
 }
 
 const initialTags = [
-  { t: "Taha Bakri", cls: "object--lg object--accent" },
-  { t: "Frontend Engineer", cls: "object--accent" },
-  { t: "React" }, { t: "TypeScript" }, { t: "Vite" }, { t: "Node.js" },
-  { t: "Tailwind" }, { t: "Three.js" }, { t: "WebGL" }, { t: "Framer Motion" },
-  { t: "Figma" }, { t: "Git" }, { t: "Postgres" },
-  { t: "Coffee", cls: "object--accent" }, { t: "Football" },
-  { t: "Late nights" }, { t: "Open source" }
+  { t: "Drag me", cls: "object--lg object--accent" },
+  { t: "Matter.js", cls: "object--accent" },
+  { t: "Throw me" }, { t: "Bounce" }, { t: "Gravity" },
+  { t: "Collision" }, { t: "Friction" }, { t: "Vanilla JS" },
+  { t: "Configurable", cls: "object--accent" }, { t: "Scroll-triggered" },
+  { t: "Responsive" }, { t: "Pointer events" }, { t: "Rounded pills" },
+  { t: "Add your own" }
 ]
 
 const container = document.getElementById("object-container")

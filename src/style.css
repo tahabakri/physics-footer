@@ -78,6 +78,28 @@ section { position: relative; min-height: 100svh; overflow: hidden; }
 .scroll-cue span { animation: nudge 1.8s ease-in-out infinite; }
 @keyframes nudge { 0%,100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
 
+/* Hero call-to-action — mirrors the accent button styling. */
+.hero .cta {
+  align-self: flex-start;
+  margin-top: 2.2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.7rem 1.3rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-text);
+  transition: transform 0.12s ease, opacity 0.2s ease;
+}
+.hero .cta:hover { opacity: 0.92; }
+.hero .cta:active { transform: translateY(1px) scale(0.98); }
+
 /* ---------- FOOTER ---------- */
 .footer { background: var(--bg-dark); color: var(--cream); }
 .footer::before {
